@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import React, { useState } from "react";
 
 const DAYS = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"];
 
@@ -72,9 +72,8 @@ export function HeatmapGrid({ grid }: { grid: number[][] }) {
         ))}
 
         {grid.map((row, r) => (
-          <>
+          <React.Fragment key={r}>
             <div
-              key={`day-${r}`}
               style={{
                 fontFamily: "var(--font-hand)",
                 fontSize: 18,
@@ -101,7 +100,7 @@ export function HeatmapGrid({ grid }: { grid: number[][] }) {
                 onMouseLeave={() => setTooltip(null)}
               />
             ))}
-          </>
+          </React.Fragment>
         ))}
       </div>
 

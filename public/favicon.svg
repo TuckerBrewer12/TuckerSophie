@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="8" fill="#fdf2f0"/>
+  <text x="16" y="13" text-anchor="middle" font-family="Georgia, serif" font-size="10" font-weight="bold" fill="#2b1f1c">T</text>
+  <path d="M16 22 C 12 18, 10 16, 10 14 C 10 12.2, 11.5 11, 13 11 C 14.2 11, 15.2 11.8, 16 13 C 16.8 11.8, 17.8 11, 19 11 C 20.5 11, 22 12.2, 22 14 C 22 16, 20 18, 16 22 Z" fill="#e85d6f"/>
+  <text x="16" y="30" text-anchor="middle" font-family="Georgia, serif" font-size="10" font-weight="bold" fill="#2b1f1c">S</text>
+</svg>
