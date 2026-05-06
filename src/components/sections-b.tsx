@@ -29,10 +29,8 @@ export function ILoveYouSlide({ data }: { data: Data }) {
 
         <Reveal delay={500}>
           <div
+            className="grid-2"
             style={{
-              display: "grid",
-              gridTemplateColumns: "1fr 1fr",
-              gap: 24,
               maxWidth: 640,
               margin: "0 auto",
             }}
@@ -174,7 +172,7 @@ export function Words({ data }: { data: Data }) {
               key={i}
               style={{
                 display: "grid",
-                gridTemplateColumns: "100px 1fr 70px",
+                gridTemplateColumns: "minmax(60px,100px) 1fr minmax(44px,70px)",
                 alignItems: "center",
                 gap: 12,
               }}

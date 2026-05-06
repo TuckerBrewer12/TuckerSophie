@@ -251,8 +251,10 @@ export function Timeline({ data }: { data: Data }) {
       </Reveal>
 
       <Reveal delay={120}>
-        <div className="card" style={{ padding: "32px 24px 24px", overflowX: "auto" }}>
-          <TimelineChart points={points} />
+        <div className="card" style={{ padding: "32px 24px 24px" }}>
+          <div className="chart-scroll">
+            <TimelineChart points={points} />
+          </div>
         </div>
       </Reveal>
     </section>
@@ -289,8 +291,10 @@ export function Heatmap({ data }: { data: Data }) {
       </Reveal>
 
       <Reveal delay={120}>
-        <div className="card" style={{ padding: "32px 28px", overflowX: "auto" }}>
-          <HeatmapGrid grid={grid} />
+        <div className="card" style={{ padding: "32px 28px" }}>
+          <div className="chart-scroll">
+            <HeatmapGrid grid={grid} />
+          </div>
         </div>
       </Reveal>
 

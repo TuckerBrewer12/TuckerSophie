@@ -233,6 +233,16 @@ footer {
 
 @media (max-width: 720px) {
   section { padding: 80px 24px; }
+  section.full { padding: 80px 24px; }
   .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
-  .slide { padding: 80px 24px; }
+  .slide { padding: 60px 24px; }
+
+  .stat-num { font-size: 40px; }
+  .big-number { font-size: clamp(56px, 18vw, 120px); }
+
+  /* charts scroll horizontally rather than overflowing */
+  .chart-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+
+  /* inside joke chips wrap tighter */
+  .card { padding: 24px; }
 }
