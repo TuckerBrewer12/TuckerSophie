@@ -29,9 +29,8 @@ export function Cover({ data }: { data: Data }) {
           </svg>
         </div>
         <p className="eyebrow" style={{ fontSize: 36 }}>for Sophie,</p>
-        <h1 style={{ fontStyle: "italic", marginBottom: 32 }}>
-          a little record of <br />
-          <span className="scribble">everything we&apos;ve said.</span>
+        <h1 style={{ fontStyle: "italic", marginBottom: 32, fontSize: "clamp(36px, 8vw, 96px)" }}>
+          a little record of <span className="scribble">everything we&apos;ve said.</span>
         </h1>
         <p className="lead" style={{ margin: "0 auto 60px", maxWidth: "44ch" }}>
           I love you Soph!
