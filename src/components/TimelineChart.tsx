@@ -74,7 +74,7 @@ export function TimelineChart({ points }: { points: Point[] }) {
 
       <svg
         viewBox={`0 0 ${W} ${H}`}
-        style={{ width: "100%", minWidth: 480, height: "auto", display: "block", overflow: "visible" }}
+        style={{ width: "100%", minWidth: 700, height: "auto", display: "block", overflow: "visible" }}
         onMouseLeave={() => setTooltip(null)}
       >
         <defs>
