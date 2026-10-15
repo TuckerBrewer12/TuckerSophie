@@ -1,1 +1,1 @@
-See @ (tucker-loves-sophie.com)[tucker-loves-sophie.com]
+See @ https://tucker-loves-sophie.com 
